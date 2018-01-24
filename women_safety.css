@@ -1,24 +1,49 @@
-body {
-	background-color: white;
+#body{
+	background-color: black;
+	height:50%;
+	width: 50%;
 }
+
 #header {
 	background-color: green;
 	height:10%;
+	border-radius: 10px;
 }
 h1{
-	background-color: green;
+	margin-top:-0.5%;
 	text-align:center;
 }
 
-
-#footer{
+#divleft {
+	float: left;
+	width: 25%;
+	height: 25%;
 	background-color: white;
-	color:black;
-	height:20%; 
+	border-radius: 10px;
 }
 
-.fname {
+#image{
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+}
 
+#divright{
+	background-color: silver;
+	float: right;
+	width: 950;
+	height: 27%;
+	text-align:center;
+	border-radius: 10px;
+}
+h3{
+	margin-top: 4%;
+}
+#footer{
+	background-color:#90ae54;
+	border-radius: 10px;
+	margin-top:13%;
+	height:7%;
 }
 .input{
 
@@ -27,25 +52,22 @@ input{
 
 }
 input[type="text"] {
+	margin-top:1%;
 	width: 25%;
 }
 .Email {
 	
 }
 input[type="email"] {
+	margin-top:1%;
 	width: 25%;
 }
 .submit{
 
 }
 input[type="submit"] {
+	margin-top:-0.3%;
 	background-color: green;
 	border-radius: 3px;
 	border-radius: 10px;
-}
-.password {
-    
-}
-input[type="password"] {
-    width: 25%; 
 }
